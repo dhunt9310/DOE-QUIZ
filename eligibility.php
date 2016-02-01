@@ -2,9 +2,9 @@
   var answers = [
       "(a) I need funding to continue my research", "C",
       "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs ", 
-      "(c) We’re an LLC with four individuals, all of whom are US citizens", "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(c) In the US",
+      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
+      "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
+      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
   ];
 </script>
 
@@ -37,11 +37,11 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>What is your motivation for finding out about the Small Business Innovation Research Program (SBIR) or the Small Business Technology Transfer program?</h2><br />
 	        <div class="tab">
-	            <input type="checkbox" name="question" value="C" /><span>(a) I need funding to continue my research </span><br />
-	            <input type="checkbox" name="question" value="B" /><span>(b) I have developed a product and need funding for a demonstration </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(c) I am interested in starting a research and development company</span><br />
-	            <input type="checkbox" name="question" value="D" /><span>(d) I work for a small manufacturing firm with an R&D department. We are looking to leverage the skills of our R&D department</span><br />
-	            <input type="checkbox" name="question" value="A" /><span>(e) Someone told me to look into it </span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) I need funding to continue my research </span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) I have developed a product and need funding for a demonstration </span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) I am interested in starting a research and development company</span><br />
+	            <input type="radio" name="question" value="D" /><span>(d) I work for a small manufacturing firm with an R&D department. We are looking to leverage the skills of our R&D department</span><br />
+	            <input type="radio" name="question" value="A" /><span>(e) Someone told me to look into it </span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -51,11 +51,11 @@
 		<form class="show">
 	    <p id="one"><h2><span>2</span>Which of the following best describes your company</h2><br />
 	        <div class="tab">
-	            <input type="checkbox" name="question" value="A" /><span>(a) I work for a foreign owned company </span><br />
-	            <input type="checkbox" name="question" value="B" /><span>(b) My firm has more than 500 employees </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(c) I don’t have a company</span><br />
-	            <input type="checkbox" name="question" value="D" /><span>(d) I work for a not-for profit organization</span><br />
-	            <input type="checkbox" name="question" value="A" /><span>(e) I work for a small business with less than 500 employees </span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) I work for a foreign owned company </span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) My firm has more than 500 employees </span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) I don’t have a company</span><br />
+	            <input type="radio" name="question" value="D" /><span>(d) I work for a not-for profit organization</span><br />
+	            <input type="radio" name="question" value="A" /><span>(e) I work for a small business with less than 500 employees </span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -65,11 +65,11 @@
 		<form class="show">
 	    <p id="one"><h2><span>3</span>Which of the following actions have you taken to learn about DOE</h2><br />
 	        <div class="tab">
-	            <input type="checkbox" name="question" value="C" /><span>(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(b) I have looked at a DOE SBIR/STTR solicitation before </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(c) I have read a DOE research report </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(d) I have looked at information related to the DOE federal labs </span><br />
-	            <input type="checkbox" name="question" value="A" /><span>(e) I have not explored the research that DOE conducts </span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab </span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) I have looked at a DOE SBIR/STTR solicitation before </span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) I have read a DOE research report </span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) I have looked at information related to the DOE federal labs </span><br />
+	            <input type="radio" name="question" value="A" /><span>(e) I have not explored the research that DOE conducts </span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -79,11 +79,11 @@
 		<form class="show">
 	    <p id="one"><h2><span>4</span>Which of the following describes the ownership of your company?</h2><br />
 	        <div class="tab">
-	            <input type="checkbox" name="question" value="A" /><span>(a) The owner of the company is a foreign national and doesn’t have a green card </span><br />
-	            <input type="checkbox" name="question" value="B" /><span>(b) We are a venture-backed small business. The investors own more than 51% of the company stock </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(c) We’re an LLC with four individuals, all of whom are US citizens </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(d) The owner is a permanent resident </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen </span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) The owner of the company is a foreign national and doesn’t have a green card </span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) We are a venture-backed small business. The investors own more than 51% of the company stock </span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) We’re an LLC with four individuals, all of whom are US citizens </span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) The owner is a permanent resident </span><br />
+	            <input type="radio" name="question" value="C" /><span>(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen </span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -93,11 +93,11 @@
 		<form class="show">
 	    <p id="one"><h2><span>5</span>Which of the following describes where the research for your company will be conducted?</h2><br />
 	        <div class="tab">
-	            <input type="checkbox" name="question" value="A" /><span>(a) Canada </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(b) District of Columbia </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(c) In the US </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(d) Commonwealth of Puerto Rico </span><br />
-	            <input type="checkbox" name="question" value="C" /><span>(e) Republic of Palau </span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) Canada </span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) District of Columbia </span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) In the US </span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) Commonwealth of Puerto Rico </span><br />
+	            <input type="radio" name="question" value="C" /><span>(e) Republic of Palau </span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
