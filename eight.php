@@ -1,10 +1,10 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+      "(c) Grants.gov", "C",
+      "(a) True", "C",
+      "(d) The Funding Opportunity Announcement (FOA)", "C", 
+      "(b) False", "C",
+      "(c) The work plan is approximately 4.5 pages in length.", "C",
   ];
 </script>
 
@@ -34,9 +34,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Where do you submit your DOE SBIR/STTR proposal?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) PAMS</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) SBA.gov</span><br />
-	            <input type="radio" name="question" value="D" /><span>(c) Grants.gov</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) PAMS</span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) SBA.gov</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) Grants.gov</span><br />
 	            <input type="radio" name="question" value="D" /><span>(d) Directly to DOE by e-mail</span><br />
 	        </div>
 	    </p>
@@ -47,7 +47,7 @@
 		<form class="show">
 	    <p id="one"><h2><span>2</span>The proposal that you submit to DOE is best conceptualized as a package.</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
 	        </div>
 	    </p>
@@ -58,9 +58,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>3</span>The document that one should always refer to when in doubt about guidelines for the DOE SBIR/STTR proposal submission is:</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) The Topics document</span><br />
-	            <input type="radio" name="question" value="C" /><span>(b) The Applications Checklist</span><br />
-	            <input type="radio" name="question" value="C" /><span>(c) The Application Guide</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) The Topics document</span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) The Applications Checklist</span><br />
+	            <input type="radio" name="question" value="D" /><span>(c) The Application Guide</span><br />
 	            <input type="radio" name="question" value="C" /><span>(d) The Funding Opportunity Announcement (FOA)</span><br />
 
 	        </div>
@@ -73,7 +73,7 @@
 	    <p id="one"><h2><span>4</span>The Phase I Commercialization Plan is part of the Project Narrative.</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -85,8 +85,8 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) The author uses a novel outline to organize the content.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) The project narrative contains 17 pages.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) The work plan is approximately 4.5 pages in length.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) The font type is Arial.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) The work plan is approximately 4.5 pages in length.</span><br />
+	            <input type="radio" name="question" value="D" /><span>(d) The font type is Arial.</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>

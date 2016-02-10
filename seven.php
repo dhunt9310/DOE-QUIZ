@@ -1,10 +1,9 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+      "(b) False", "C",
+      "(c) Merit Reviewers have the final say in which Phase I DOE SBIR/STTR proposals get funded.", "C",
+      "(d) None of the above", "C", 
+      "(a) True", "C",
   ];
 </script>
 
@@ -34,8 +33,8 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Really “great” Phase I proposals can still get awarded even if they fail to pass the Initial Review step.</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -47,8 +46,8 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) The majority of Merit Reviewers come from the DOE federal laboratories.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Merit Reviewers consider three broad criteria in evaluating DOE Phase I SBIR/STTR proposals.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) Merit Reviewers have the final say in which Phase I DOE SBIR/STTR proposals get funded.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) Approximately three Merit Reviewers are involved in evaluation of a Phase I DOE proposal.</span><br />	        
+	            <input type="radio" name="question" value="C" /><span>(c) Merit Reviewers have the final say in which Phase I DOE SBIR/STTR proposals get funded.</span><br />
+	            <input type="radio" name="question" value="D" /><span>(d) Approximately three Merit Reviewers are involved in evaluation of a Phase I DOE proposal.</span><br />	        
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -58,9 +57,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>3</span>When is communication with the DOE Program Office that is responsible for the Topic/Subtopic to which you are responding advisable?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) To help pass the Initial Review step</span><br />
-	            <input type="radio" name="question" value="C" /><span>(b) To get a good score in the Merit Review step</span><br />
-	            <input type="radio" name="question" value="C" /><span>(c) To influence the outcome of the final selection of awards step</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) To help pass the Initial Review step</span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) To get a good score in the Merit Review step</span><br />
+	            <input type="radio" name="question" value="D" /><span>(c) To influence the outcome of the final selection of awards step</span><br />
 	            <input type="radio" name="question" value="C" /><span>(d) None of the above</span><br />
 
 	        </div>
@@ -72,14 +71,14 @@
 		<form class="show">
 	    <p id="one"><h2><span>4</span>Commercialization issues like market potential and economic impact are part of the Merit Review of a Phase I DOE SBIR/STTR proposal.</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
 		</form>
 
-<div id="buttonDiv">        
+<div id="buttonDiv_four">        
     <input type="button" id="button" value="Submit Answers" />
 </div>
 	</div>

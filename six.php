@@ -34,9 +34,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>What is the maximum number of Letters of Intent one can submit in response to an FOA?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) One</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) Five</span><br />
-	            <input type="radio" name="question" value="D" /><span>(c) ten</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) One</span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) Five</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) ten</span><br />
 	            <input type="radio" name="question" value="D" /><span>(d) Twenty</span><br />
 
 	        </div>
@@ -48,10 +48,10 @@
 		<form class="show">
 	    <p id="one"><h2><span>2</span>Which of the following is NOT a true statement?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="A" /><span>(a) DOE allows co–principal investigators (PI).</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) The PI directs the project.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) DOE allows co–principal investigators (PI).</span><br />
+	            <input type="radio" name="question" value="A" /><span>(b) The PI directs the project.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) The PIs primary employment must be with the applicant once an award is received.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) A PI may spend 19 or less hours working for an entity other than the applicant.</span><br />	        
+	            <input type="radio" name="question" value="D" /><span>(d) A PI may spend 19 or less hours working for an entity other than the applicant.</span><br />	        
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -61,9 +61,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>3</span>Which of the following is true? A Letter of Intent (LOI)…</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) is the same as a Letter of Transmittal</span><br />
-	            <input type="radio" name="question" value="C" /><span>(b) is not necessary</span><br />
-	            <input type="radio" name="question" value="C" /><span>(c) cannot exceed 750 words</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) is the same as a Letter of Transmittal</span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) is not necessary</span><br />
+	            <input type="radio" name="question" value="D" /><span>(c) cannot exceed 750 words</span><br />
 	            <input type="radio" name="question" value="C" /><span>(d) provides DOE the opportunity to find relevant reviewers</span><br />
 
 	        </div>
@@ -77,8 +77,8 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) 8 Weeks</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) 5 Weeks</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) 3 Weeks</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) 1 Weeks</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) 3 Weeks</span><br />
+	            <input type="radio" name="question" value="D" /><span>(d) 1 Weeks</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -90,14 +90,14 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) Grants.gov</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) DUNS</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) SAM</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) PAMS</span><br />
+	            <input type="radio" name="question" value="D" /><span>(c) SAM</span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) PAMS</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
 		</form>
 
-<div id="buttonDiv">        
+<div id="buttonDiv_five">        
     <input type="button" id="button" value="Submit Answers" />
 </div>
 	</div>

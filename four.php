@@ -1,10 +1,10 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+      "(b) False", "C",
+      "(b) PIs have to put in at least 1 hour per week on a DOE SBIR/STTR project.", "C",
+      "(b) A venture capital firm can be a minority owner of a DOE SBIR/STTR applicant small business", "C", 
+      "(h) All of the above", "C",
+      "(b) False", "C",
   ];
 </script>
 
@@ -34,8 +34,8 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Universities and federal labs can apply for STTR grants, as long as they subcontract some of the work to small businesses.</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -46,9 +46,9 @@
 	    <p id="one"><h2><span>2</span>Which of the following statements is NOT accurate?</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) Principal investigators must have the education, experience and project management qualifications to run the proposed SBIR/STTR project.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) PIs have to put in at least 1 hour per week on a DOE SBIR/STTR project.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) PIs have to put in at least 1 hour per week on a DOE SBIR/STTR project.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) On an SBIR project, the PI has to work at least 20 hours per week with the small business grantee during the project and not more than 19 hours per week for any other employers.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) On an STTR project, the PI must work at least 20 hours per week with either the small business grantee or the research institution collaborating on the project.</span><br />	        
+	            <input type="radio" name="question" value="D" /><span>(d) On an STTR project, the PI must work at least 20 hours per week with either the small business grantee or the research institution collaborating on the project.</span><br />	        
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -58,7 +58,7 @@
 		<form class="show">
 	    <p id="one"><h2><span>3</span>Which of the following statements is correct?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) A venture capital firm can be the owner of a majority of a DOE SBIR/STTR applicant small business</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) A venture capital firm can be the owner of a majority of a DOE SBIR/STTR applicant small business</span><br />
 	            <input type="radio" name="question" value="C" /><span>(b) A venture capital firm can be a minority owner of a DOE SBIR/STTR applicant small business</span><br />
 	        </div>
 	    </p>
@@ -71,13 +71,13 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) A university (for-profit or non-profit)</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) An FFRDC</span><br />
-	            <input type="radio" name="question" value="C" /><span>(c) A retired Federal lab employee</span><br />
-	            <input type="radio" name="question" value="C" /><span>(d) A Fortune 500 company</span><br />
-	            <input type="radio" name="question" value="C" /><span>(e) A medium-size pharmaceutical company</span><br />
-	            <input type="radio" name="question" value="C" /><span>(f) A small R&D think tank</span><br />
-	            <input type="radio" name="question" value="C" /><span>(g) A research foundation</span><br />
+	            <input type="radio" name="question" value="D" /><span>(c) A retired Federal lab employee</span><br />
+	            <input type="radio" name="question" value="E" /><span>(d) A Fortune 500 company</span><br />
+	            <input type="radio" name="question" value="F" /><span>(e) A medium-size pharmaceutical company</span><br />
+	            <input type="radio" name="question" value="G" /><span>(f) A small R&D think tank</span><br />
+	            <input type="radio" name="question" value="H" /><span>(g) A research foundation</span><br />
 	            <input type="radio" name="question" value="C" /><span>(h) All of the above</span><br />
-	            <input type="radio" name="question" value="C" /><span>(i) None of the above</span><br />
+	            <input type="radio" name="question" value="I" /><span>(i) None of the above</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -88,13 +88,13 @@
 	    <p id="one"><h2><span>5</span>A Phase I proposal to DOE can be considered for both the SBIR and STTR programs as long as it includes a non-profit research entity contributing more than 33% but less than 30% of the research.</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
 		</form>
 
-<div id="buttonDiv">        
+<div id="buttonDiv_five">        
     <input type="button" id="button" value="Submit Answers" />
 </div>
 	</div>

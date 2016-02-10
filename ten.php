@@ -1,10 +1,8 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+      "(b) Proposal preparation", "C",
+      "(b) Over 20 states have a formal Phase 0 program.", "C",
+      "(c) DOE  SBIR/STTR Phase 0 program", "C", 
   ];
 </script>
 
@@ -34,9 +32,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Phase 0 refers to:</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) Commercialization planning</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) Proposal preparation</span><br />
-	            <input type="radio" name="question" value="D" /><span>(c) Prototype development</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) Commercialization planning</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) Proposal preparation</span><br />
+	            <input type="radio" name="question" value="B" /><span>(c) Prototype development</span><br />
 	            <input type="radio" name="question" value="D" /><span>(d) Technology Readiness Level 5</span><br />
 	        </div>
 	    </p>
@@ -49,8 +47,8 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) Every state provides a formal Phase 0 program.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) All Small Business Development Centers (SBDC) provide Phase 0 Assistance.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) Only federal programs provide Phase 0 assistance.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) Over 20 states have a formal Phase 0 program.</span><br />
+	            <input type="radio" name="question" value="D" /><span>(b) Only federal programs provide Phase 0 assistance.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) Over 20 states have a formal Phase 0 program.</span><br />
 
 	        </div>
 	    </p>
@@ -59,12 +57,12 @@
 
 		<!-- Question 3 -->
 		<form class="show">
-	    <p id="one"><h2><span>3</span>Which system does an applicant use to upload a DOE Phase I SBIR or STTR application?</h2><br />
+	    <p id="one"><h2><span>3</span>Which type of Phase 0 support is not provided by one or more states?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) SAM</span><br />
-	            <input type="radio" name="question" value="C" /><span>(b) PAMS</span><br />
-	            <input type="radio" name="question" value="C" /><span>(c) grants.gov</span><br />
-	            <input type="radio" name="question" value="C" /><span>(d) fedbizops</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) Funds to reimburse a small business for eligible expenses</span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) Services such as cost proposal and budget assistance</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) DOE  SBIR/STTR Phase 0 program</span><br />
+	            <input type="radio" name="question" value="D" /><span>(d) Training on proposal writing</span><br />
 
 	        </div>
 	    </p>
@@ -72,7 +70,7 @@
 		</form>
 
 
-<div id="buttonDiv">        
+<div id="buttonDiv_three">        
     <input type="button" id="button" value="Submit Answers" />
 </div>
 	</div>
