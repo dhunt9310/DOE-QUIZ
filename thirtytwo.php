@@ -1,10 +1,9 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(b) False", "C",
+  	"(a) A file naming protocol that utilizes the incorporates the name of the document type, the date, and the developer’s initials", "C",
+  	"(b) The Authorized Organization Representative", "C",
+  	"(b) False", "C",
   ];
 </script>
 
@@ -34,8 +33,8 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>You should download the application package from grants.gov website 48 hours before the proposal is due?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -45,7 +44,7 @@
 		<form class="show">
 	    <p id="one"><h2><span>2</span>What method is recommended to manage versioning of proposal files?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="A" /><span>(a) A file naming protocol that utilizes the incorporates the name of the document type, the date, and the developer’s initials</span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) A file naming protocol that utilizes the incorporates the name of the document type, the date, and the developer’s initials</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Color coding</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Keep different versions on different computers</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) None of the above</span><br />
@@ -59,7 +58,7 @@
 	    <p id="one"><h2><span>3</span>What is the name of the only role that grants.gov allows to upload a file to grants.gov?</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) The Principal Investigator</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) The Authorized Organization Representative</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) The Authorized Organization Representative</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) The Business Official</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) The Administrative Assistant</span><br />
 	        </div>
@@ -72,7 +71,7 @@
 	    <p id="one"><h2><span>4</span>Is the following statement true or false? When you populate the application package it automatically sends the information to the grants.gov site?</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>

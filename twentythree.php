@@ -1,10 +1,8 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(c) 6 weeks", "C",
+  	"(b) False", "C",
+  	"(d) 48", "C",
   ];
 </script>
 
@@ -34,9 +32,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>How much time do you have to prepare your DOE Phase I SBIR/STTR application after you submit the LOI?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) 1 week</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) 1 week</span><br />
 	            <input type="radio" name="question" value="D" /><span>(b) 3 weeks</span><br />
-	            <input type="radio" name="question" value="D" /><span>(c) 6 weeks</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) 6 weeks</span><br />
 	            <input type="radio" name="question" value="D" /><span>(d) 9 weeks</span><br />
 	        </div>
 	    </p>
@@ -48,7 +46,7 @@
 	    <p id="one"><h2><span>2</span>It is recommended that you complete all elements of a DOE proposal application yourself?</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -61,7 +59,7 @@
 	            <input type="radio" name="question" value="A" /><span>(a) 6</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) 12</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) 24</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) 48</span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) 48</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>

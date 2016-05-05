@@ -1,10 +1,10 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(b) False", "C",
+  	"(c) Up to 33% of a Phase I or Phase II SBIR project can be contracted to a third party.", "C",
+  	"(b) False", "C",
+  	"(f) All of the above", "C",
+  	"(e) It doesn’t matter if a new team member can contribute positively to the project as long as they look good on paper.", "C",
   ];
 </script>
 
@@ -34,8 +34,8 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Large industry should never be considered as a team member on an SBIR or STTR project.</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -47,7 +47,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) STTR projects must include a non-profit RI as part of the team.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) SBIR projects do not have to include any outside or third party team members.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) Up to 33% of a Phase I or Phase II SBIR project can be contracted to a third party.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) Up to 33% of a Phase I or Phase II SBIR project can be contracted to a third party.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) STTR projects must contract at least 30% of their research to a non-profit RI, and can also contract up to another 30% with another third party, which can be for-profit or non-profit.</span><br />
 	        </div>
 	    </p>
@@ -59,7 +59,7 @@
 	    <p id="one"><h2><span>3</span>Agencies and reviewers usually are willing to give an SBIR/STTR award to an ill-qualified team.</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -74,7 +74,7 @@
 	            <input type="radio" name="question" value="B" /><span>(c) Universities</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) FFRDCs</span><br />
 	            <input type="radio" name="question" value="B" /><span>(e) Larger firms in a relevant industry</span><br />
-	            <input type="radio" name="question" value="B" /><span>(f) All of the above</span><br />
+	            <input type="radio" name="question" value="C" /><span>(f) All of the above</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -88,7 +88,7 @@
 	            <input type="radio" name="question" value="B" /><span>(b) Look for new team members whose experience and/or education fills gaps in your team’s capabilities.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) DOE expects a letter of commitment in an SBIR/STTR proposal from consultants, subcontractors, and RIs.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) You can offer employment to a prospect contingent on award of an SBIR/STTR project.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(e) It doesn’t matter if a new team member can contribute positively to the project as long as they look good on paper.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(e) It doesn’t matter if a new team member can contribute positively to the project as long as they look good on paper.</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>

@@ -1,10 +1,10 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(a) 10%", "C",
+  	"(c) By e-mail", "C",
+  	"(b) PAMS", "C",
+  	"(b) By the merit criteria used", "C",
+  	"(b) By e-mail", "C",
   ];
 </script>
 
@@ -49,7 +49,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) By phone</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) By regular mail</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) By e-mail</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) By e-mail</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) By text</span><br />
 	        </div>
 	    </p>
@@ -62,8 +62,8 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) Grants.gov</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) FSRS</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) SAM</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) PAMS</span><br />
+	            <input type="radio" name="question" value="A" /><span>(b) SAM</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) PAMS</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -75,7 +75,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) By topic number/subtopic letter</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) By reviewer’s last name</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) By the merit criteria used</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) By the merit criteria used</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) By Research Office</span><br />
 	        </div>
 	    </p>
@@ -88,7 +88,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) By phone</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) By regular mail</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) By e-mail</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) By e-mail</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) By text</span><br />
 	        </div>
 	    </p>

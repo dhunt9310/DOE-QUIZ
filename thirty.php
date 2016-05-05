@@ -1,10 +1,8 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(b) 1 page", "C",
+  	"(a) Technically literate", "C",
+  	"(b) You should not include confidential information in the project summary/abstract because it will be made public.", "C",
   ];
 </script>
 
@@ -34,8 +32,8 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>How long should the project summary/abstract be?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) 500 words</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) 1 page</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) 500 words</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) 1 page</span><br />
 	            <input type="radio" name="question" value="D" /><span>(b) 5 pages</span><br />
 	            <input type="radio" name="question" value="D" /><span>(b) 100 words</span><br />
 	        </div>
@@ -47,7 +45,7 @@
 		<form class="show">
 	    <p id="one"><h2><span>2</span>In writing the project summary/abstract, what should you assume about the sophistication of the reader? You should assume that the reader is:</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="A" /><span>(a) Technically literate</span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) Technically literate</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Technically naïve</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) A scientist</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) None of the above</span><br />
@@ -61,7 +59,7 @@
 	    <p id="one"><h2><span>3</span>Which of the following is a true statement?</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) You should include confidential information in the project summary/abstract.</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) You should not include confidential information in the project summary/abstract because it will be made public.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) You should not include confidential information in the project summary/abstract because it will be made public.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) The project summary/abstract will not be made public.</span><br />
 	        </div>
 	    </p>

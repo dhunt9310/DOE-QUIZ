@@ -1,10 +1,8 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(d) Instructions for Completing a DOE SBIR/STTR Phase I Grant Application", "C",
+  	"(d) Other Significant Contributor", "C",
+  	"(c) Grants.gov", "C",
   ];
 </script>
 
@@ -34,10 +32,10 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Which DOE prepared document provides detailed information on how to complete the DOE Grant Application?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) The Proposal Preparation Checklist</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) The Proposal Preparation Checklist</span><br />
 	            <input type="radio" name="question" value="D" /><span>(b) The Funding Opportunity Announcement</span><br />
 	            <input type="radio" name="question" value="D" /><span>(c) Grants.gov</span><br />
-	            <input type="radio" name="question" value="D" /><span>(d) Instructions for Completing a DOE SBIR/STTR Phase I Grant Application</span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) Instructions for Completing a DOE SBIR/STTR Phase I Grant Application</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -50,7 +48,7 @@
 	            <input type="radio" name="question" value="A" /><span>(a) Principal Investigator</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Consultant</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Subcontractor</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) Other Significant Contributor</span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) Other Significant Contributor</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -62,7 +60,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) PAMS</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) FSRS</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) Grants.gov</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) Grants.gov</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) SAM</span><br />
 	        </div>
 	    </p>

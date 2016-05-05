@@ -1,10 +1,10 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(c) Part 31", "C",
+  	"(d) Accounting", "C",
+  	"(c) Bank Charges", "C",
+  	"(b) Judgment", "C",
+  	"(b) Two pool", "C",
   ];
 </script>
 
@@ -34,9 +34,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Where in the Federal Acquisition Regulations (FAR) can cost principles be found?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) Part 15</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) Part 42</span><br />
-	            <input type="radio" name="question" value="D" /><span>(c) Part 31</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) Part 15</span><br />
+	            <input type="radio" name="question" value="A" /><span>(b) Part 42</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) Part 31</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -49,7 +49,7 @@
 	            <input type="radio" name="question" value="A" /><span>(a) Working directly on the project</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Traveling to visit the DOE customer </span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Purchasing material for the project</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) Accounting</span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) Accounting</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -61,7 +61,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) Charitable gifts/donations</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Entertainment</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) Bank Charges</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) Bank Charges</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) Fines &amp; Penalties</span><br />
 	        </div>
 	    </p>
@@ -74,7 +74,7 @@
 	    <p id="one"><h2><span>4</span>What does the term “pool” refer to?</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) Vendor quote</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) Judgment</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) Judgment</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Catalog price</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) Similar priced items</span><br />
 	        </div>
@@ -87,7 +87,7 @@
 	    <p id="one"><h2><span>5</span>Which cost structure is commonly used in academia?</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) One pool</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) Two pool</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) Two pool</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Three pool</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Four pool</span><br />
 	        </div>

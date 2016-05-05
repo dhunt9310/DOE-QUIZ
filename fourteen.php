@@ -1,10 +1,7 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(c) Is a required element of your SBIR/STTR proposal submission package", "C",
+  	"(d) Enable DOE to validate the data resulting from your work", "C",
   ];
 </script>
 
@@ -34,10 +31,10 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Which of the following is a true statement regarding Data Management Plans</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) They are not required to be submitted with an SBIR/STTR proposal</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) They require that you give up proprietary rights</span><br />
-	            <input type="radio" name="question" value="D" /><span>(c) Is a required element of your SBIR/STTR proposal submission package</span><br />
-	            <input type="radio" name="question" value="D" /><span>(d) Are only required if you are working with Federal lab</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) They are not required to be submitted with an SBIR/STTR proposal</span><br />
+	            <input type="radio" name="question" value="A" /><span>(b) They require that you give up proprietary rights</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) Is a required element of your SBIR/STTR proposal submission package</span><br />
+	            <input type="radio" name="question" value="A" /><span>(d) Are only required if you are working with Federal lab</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -50,7 +47,7 @@
 	            <input type="radio" name="question" value="A" /><span>(a) Advance scientific knowledge</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Describe how data will be preserved and disseminated</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Describe how you will record digital data</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) Enable DOE to validate the data resulting from your work</span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) Enable DOE to validate the data resulting from your work</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>

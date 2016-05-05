@@ -1,10 +1,9 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+	"(c) SAM and grants.gov", "C",
+	"(c) PAMS", "C",  
+	"(b) SAM", "C",
+	"(b) You can only download a DOE SBIR Phase I application package from grants.gov once the FOA has been issued.", "C",
   ];
 </script>
 
@@ -34,9 +33,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Which registrations take the longest to complete?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) DUNS and SBA</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) FedConnect and FSRS</span><br />
-	            <input type="radio" name="question" value="D" /><span>(c) SAM and grants.gov</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) DUNS and SBA</span><br />
+	            <input type="radio" name="question" value="B" /><span>(b) FedConnect and FSRS</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) SAM and grants.gov</span><br />
 	            <input type="radio" name="question" value="D" /><span>(d) PAMS and EIN</span><br />
 	        </div>
 	    </p>
@@ -49,7 +48,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) grants.gov</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) SAM</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) PAMS</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) PAMS</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) SBA</span><br />
 	        </div>
 	    </p>
@@ -60,10 +59,10 @@
 		<form class="show">
 	    <p id="one"><h2><span>3</span> Which system will provide you with an MPIN?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) grants.gov</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) grants.gov</span><br />
 	            <input type="radio" name="question" value="C" /><span>(b) SAM</span><br />
-	            <input type="radio" name="question" value="C" /><span>(c) PAMS</span><br />
-	            <input type="radio" name="question" value="C" /><span>(d) SBA</span><br />
+	            <input type="radio" name="question" value="A" /><span>(c) PAMS</span><br />
+	            <input type="radio" name="question" value="A" /><span>(d) SBA</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>

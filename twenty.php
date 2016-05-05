@@ -1,10 +1,8 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(c) 3 pages", "C",
+  	"(b) False", "C",
+  	"(d) Focusing on developing a well articulated statement of your interests", "C",
   ];
 </script>
 
@@ -34,9 +32,9 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>In sample of winning Phase I awards what was the average length of the section entitled “Identification and Significance of the Problem or Opportunity, and Technical Approach”?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) Half a page</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) Half a page</span><br />
 	            <input type="radio" name="question" value="D" /><span>(b) 1 page</span><br />
-	            <input type="radio" name="question" value="D" /><span>(c) 3 pages</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) 3 pages</span><br />
 	            <input type="radio" name="question" value="D" /><span>(d) 10 pages</span><br />
 	        </div>
 	    </p>
@@ -48,7 +46,7 @@
 	    <p id="one"><h2><span>2</span>True or False: When developing the section entitled Significance of the Problem or Opportunity you should never discuss DOE’s concerns.</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -61,7 +59,7 @@
 	            <input type="radio" name="question" value="A" /><span>(a) Talking to the topic manager</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Searching for presentations developed by the TM</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Reviewing the links in the topic and subtopic sections</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) Focusing on developing a well articulated statement of your interests</span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) Focusing on developing a well articulated statement of your interests</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>

@@ -1,10 +1,8 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(b) Google Scholar", "C",
+  	"(c) Quotation marks", "C",
+  	"(c) The number of citations", "C",
   ];
 </script>
 
@@ -34,8 +32,8 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>Which specialized Google search engine is useful for finding industry and academic experts?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) Google Translate</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) Google Scholar</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) Google Translate</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) Google Scholar</span><br />
 	            <input type="radio" name="question" value="D" /><span>(c) Google Maps</span><br />
 	            <input type="radio" name="question" value="D" /><span>(d) Google Finance</span><br />
 	        </div>
@@ -49,7 +47,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) Ellipses</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Hash tag signs</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) Quotation marks</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) Quotation marks</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) Nothing</span><br />
 	        </div>
 	    </p>
@@ -62,7 +60,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) The person name</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) The name of the journal</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) The number of citations</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) The number of citations</span><br />
 	            <input type="radio" name="question" value="B" /><span>(d) The publication year</span><br />
 	        </div>
 	    </p>

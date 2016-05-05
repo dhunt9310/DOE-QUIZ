@@ -1,10 +1,12 @@
 <script type="text/javascript">
   var answers = [
-      "(a) I need funding to continue my research", "C",
-      "(c) I don’t have a company", "C",
-      "(a) I have looked at some of the R&D videos on the DOE Phase 0 website under the R&D tab", "C", "(b) I have looked at a DOE SBIR/STTR solicitation before", "(c) I have read a DOE research report", "(d) I have looked at information related to the DOE federal labs", 
-       "C", "(d) The owner is a permanent resident", "(e) We are a DE C-Corp, with 20% of the stock held by business angels. Daily operations are managed by the company President who is a US citizen", 
-      "(b) District of Columbia", "C", "(c) In the US", "(d) Commonwealth of Puerto Rico", "(e) Republic of Palau",
+  	"(b) False", "C",
+  	"(c) All of the SBIR/STTR research can be done at 3rd parties’ facilities and none at the applicant’s facilities.", "C",
+  	"(d) All of the above", "C",
+  	"(b) False", "C",
+  	"(a) True", "C",
+  	"(a) Equipment bought as a direct cost on a DOE SBIR/STTR project will be owned by the Federal government.", "C",
+  	"(a) True", "C",
   ];
 </script>
 
@@ -34,8 +36,8 @@
 		<form class="show">
 	    <p id="one"><h2><span>1</span>DOE does not allow equipment to be purchased as a direct cost in a Phase I SBIR/STTR project</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="D" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -47,7 +49,7 @@
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) All of the SBIR/STTR research can be done at the small company applicant’s facilities.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Part of the research can be done at the applicant’s facilities and part at 3rd parties’ facilities (including subcontractors and consultants).</span><br />
-	            <input type="radio" name="question" value="B" /><span>(c) All of the SBIR/STTR research can be done at 3rd parties’ facilities and none at the applicant’s facilities.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(c) All of the SBIR/STTR research can be done at 3rd parties’ facilities and none at the applicant’s facilities.</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -60,7 +62,7 @@
 	            <input type="radio" name="question" value="A" /><span>(a) As a direct cost</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) As part of the indirect cost rate (depreciation expense)</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Out of fee/profit</span><br />
-	            <input type="radio" name="question" value="B" /><span>(d) All of the above</span><br />
+	            <input type="radio" name="question" value="C" /><span>(d) All of the above</span><br />
 	            <input type="radio" name="question" value="B" /><span>(e) None of the above</span><br />
 	        </div>
 	    </p>
@@ -73,7 +75,7 @@
 	    <p id="one"><h2><span>4</span>Written verification by a 3rd party source of facilities/equipment is only required if the facilities/equipment are being purchased, leased, or rented</h2><br />
 	        <div class="tab">
 	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
-	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
+	            <input type="radio" name="question" value="C" /><span>(b) False</span><br />
 	        </div>
 	    </p>
 	    <div class="next">Next Question</div>
@@ -83,7 +85,7 @@
 		<form class="show">
 	    <p id="one"><h2><span>5</span>Restrictions and rules on purchase and justification of equipment applies to only those items being purchased as direct costs on a Phase I SBIR/STTR project</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
 	        </div>
 	    </p>
@@ -94,7 +96,7 @@
 		<form class="show">
 	    <p id="one"><h2><span>6</span>Which of the following statements is accurate?</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="A" /><span>(a) Equipment bought as a direct cost on a DOE SBIR/STTR project will be owned by the Federal government.</span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) Equipment bought as a direct cost on a DOE SBIR/STTR project will be owned by the Federal government.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) Equipment bought as part of the indirect cost rate on a DOE SBIR/STTR project will be owned by the Federal government.</span><br />
 	            <input type="radio" name="question" value="B" /><span>(c) Equipment bought out of fee/profit earned on a DOE SBIR/STTR project will be owned by the Federal government.</span><br />
 	        </div>
@@ -106,7 +108,7 @@
 		<form class="show">
 	    <p id="one"><h2><span>7</span>Seeking an SBIR/STTR award that includes a budget for the use of sophisticated facilities or equipment can increase the credibility and seriousness of intent of a small business when it approaches a university or Federal Laboratory about using the institution’s sophisticated facilities or equipment</h2><br />
 	        <div class="tab">
-	            <input type="radio" name="question" value="A" /><span>(a) True</span><br />
+	            <input type="radio" name="question" value="C" /><span>(a) True</span><br />
 	            <input type="radio" name="question" value="B" /><span>(b) False</span><br />
 	        </div>
 	    </p>
